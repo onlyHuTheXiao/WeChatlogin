@@ -19,6 +19,7 @@ public class wechatLogin {
     public static void main(String[] args) {
 
 
+        // 动态获取code
         String code = "081PVD0w3OK6MW2Jpc0w3lOhXr4PVD0J";
         String url="https://api.weixin.qq.com/sns/jscode2session";
         String appid="wxc83de318c5a6def6";
